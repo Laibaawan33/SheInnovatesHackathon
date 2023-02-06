@@ -12,7 +12,18 @@
 }
 img {
     border-radius: 50%;
-  }
+}
+
+.recipeimg {
+    height: 30%;
+    width: 30%;
+}
+
+.recipeimg2{
+    height: 100%;
+    width: 100%;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -85,7 +96,7 @@ nav img{
 .mheader{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.32),rgba(4, 9, 30, 0.318)),url(../static/images/meals.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.32),rgba(4, 9, 30, 0.318)),url(../images/meals.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -185,7 +196,7 @@ html {
     top: 500%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 0 30px;
+    padding: 0 10px;
 }
 .square{
     border-radius: 0;
